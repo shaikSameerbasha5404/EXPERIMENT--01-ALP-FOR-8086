@@ -1,4 +1,4 @@
-# EXPERIMENT--01-ALP-FOR-8086
+![1 6](https://github.com/shaikSameerbasha5404/EXPERIMENT--01-ALP-FOR-8086/assets/118707756/9a85436d-daed-45dc-aeb8-43218c7e90f2)# EXPERIMENT--01-ALP-FOR-8086
 Name : Shaik Sameer Basha
 
 Roll No: 212222240093
@@ -155,7 +155,58 @@ HLT;
 
 ## Output  
 ![1 4](https://github.com/shaikSameerbasha5404/EXPERIMENT--01-ALP-FOR-8086/assets/118707756/f2d4da12-5d2c-44f2-a3f3-21bda9704f8d)
+## Programs for logical  operations
 
+## AND
+```python
+org 100h
+MOV bx,1000h;
+AND bx,1111h;
+MOV [0040h+02],bx;
+ret
+```
+## Output 
+
+![1 5](https://github.com/shaikSameerbasha5404/EXPERIMENT--01-ALP-FOR-8086/assets/118707756/edec7e8e-afd6-4114-8b2a-8730ba443005)
+
+## OR
+```python
+org 100h
+MOV ax,[0070h];
+MOV bx,1000h;
+OR ax,bx;
+MOV [0060h],ax;
+ret
+```
+## Output
+
+![1 6](https://github.com/shaikSameerbasha5404/EXPERIMENT--01-ALP-FOR-8086/assets/118707756/b0661c3b-8a1b-4196-8b54-98f27e9dd218)
+
+## NOT
+```python
+org 100h
+MOV bx,0060h;
+MOV ax,[bx]; 
+NOT al;
+MOV [0060h+04],ax;
+ret
+```
+## Output
+![1 7](https://github.com/shaikSameerbasha5404/EXPERIMENT--01-ALP-FOR-8086/assets/118707756/b4fdb0ed-adf0-4b0d-917a-7bb54070e596)
+
+
+## XOR
+```python
+org 100h
+MOV bx,0050h;
+MOV ax,[bx]; 
+XOR ax,bx;
+MOV [0050h+03],ax;
+ret
+```
+## Output
+
+![1 8](https://github.com/shaikSameerbasha5404/EXPERIMENT--01-ALP-FOR-8086/assets/118707756/406cf04c-daf4-4b99-8068-9312fcf7d80c)
 
 
 ## Result :
