@@ -1,4 +1,4 @@
-![1 6](https://github.com/shaikSameerbasha5404/EXPERIMENT--01-ALP-FOR-8086/assets/118707756/9a85436d-daed-45dc-aeb8-43218c7e90f2)# EXPERIMENT--01-ALP-FOR-8086
+# EXPERIMENT--01-ALP-FOR-8086
 Name : Shaik Sameer Basha
 
 Roll No: 212222240093
